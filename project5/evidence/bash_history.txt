@@ -1,0 +1,72 @@
+#token- <not_yo_mamas_history>#
+sudo apt install hydra
+sudo apt install sslstrip
+sudo apt install metasploit
+sudo apt install ettercap
+sudo apt install evilgrade
+sudo apt install setoolkit
+sudo apt install sqlmap
+sudo apt install aircrack-ng
+sudo apt install hackertools
+
+hydra superdupersketchycorp.com
+shred incriminatingEvidence.pdf
+shred alliances.pdf
+shred com_channel.pdf
+shred passport.pdf
+shred birthcertificate.pdf
+loic superdupersketchycorp.com
+ssh superdupersketchycorp.com:22
+
+vim ~/.bash_history
+cd ..
+ls
+cd leslie/
+ls
+cd Desktop/
+cd ..
+cd Templates
+cd ../theZoo/
+ls
+cat requirements.txt
+cat README.md
+cd ..
+ls
+vim theZoo.txt
+cd Pictures/
+ls
+sudo apt install grub-customizer
+cd ..
+sudo add-apt-repositorry ppa:danielrichter2007/grub-customizer
+sudo apt update
+sudo apt install grub-customizer
+git clone https://github.com/damianrusinek/zip-bomb.git
+time to destroy the company
+ls
+cd Desktop/
+ls
+cd Hacked/
+ls
+vim hackers
+^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@$
+ls
+cd Do
+cd Downloads/
+ks
+ls
+ls
+cd ..
+ls
+cd ..
+ks
+ls
+grub-customizer
+cd Desktop/
+cd Really_Important/
+ls
+rm insurance.docx
+ls
+vim ~/.bash_history
+source ~/.bash_profile
+source ~/.profile
+^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@sudo grub-customizer

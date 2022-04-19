@@ -1,0 +1,5 @@
+Makefile
+setcookie
+*~
+\#*
+__pycache__

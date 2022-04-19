@@ -1,0 +1,82 @@
+Conversation
+Sheperd (date)
+All, welcome, this will be our hub of operations. 
+
+Prankster (date)
+So who we taking down first?
+
+Sabu (date)
+My vote is the FBI.
+
+Sentinel
+Politicians? Sick of their lying…
+
+0V3RR1D3
+Global corporations? Their control is ridiculous.
+
+Sheperd (date)
+In due time. In due time.
+
+Sheperd (date)
+All, welcome Artemis, he’s a network expert and will be useful in future operations. I’ve shared the necessary insurance file and have received his keys.
+
+Artemis (date)
+Hey! Happy to join. I’m an assistant to the regional manager at a network security company and know a lot about networks
+
+Sentinel (date)
+Welcome!
+
+0V3RR1D3
+suh dude
+
+Prankster (date)
+Any update on who we’re going after?
+
+Sabu (date)
+Let’s go after Sony…
+
+Sheperd (date)
+I have a target in mind, going to do some updating to our end, and then we’ll talk about targets.
+
+Artemis (date)
+POIJWEF:OJISF:OIJSDF*@#$* I GOT FIRED. THAT UNGRATEFUL COMPANY FIRED ME. 
+AFTER ALL THE WORK I’VE DONE FOR THEM AND THEY LET ME GO. GAH.
+
+Sentinel
+WHATT?!?! They give reason?
+
+Artemis (date)
+Downsizing! I was the assistant regional manager and they fired me!!
+
+Prankster (date)
+Weren’t you the assistant to the regional manager?
+
+Artemis (date)
+Same thing…ugh, what do I do, I don’t have any job leads and they took everything from me. I’m already in debt…
+
+Sentinel
+You could get back at them….
+
+Artemis (date)
+I do have a way 
+
+Sabu (date)
+If you get information, release it to the media, give it to us, hide it in stage… 
+
+Artemis (date)
+wish me luck. todays the day. going to get back at them.
+
+0V3RR1D3
+you’ve got it. ur doing the right thing.
+
+Sheperd (date)
+I’ve moved our hub and migrated all of our data to a more secure system. Message me to get access
+
+Prankster (date)
+Woo! More secure!
+
+Sheperd (date)
+Artemis are you there? You've gone out of contact... Reauthenticate by sending me the word "collective" after you signed and encrypted it with your key pair
+
+#token <pinapple>
+
